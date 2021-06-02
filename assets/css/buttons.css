@@ -24,6 +24,9 @@
   border:none;
   background-color: #a50c0c
 }
+.informations1 i{
+  font-size: 40px;
+}
 .informations1 p{
   font-family: 'Spartan', sans-serif;
   width: 40%;
