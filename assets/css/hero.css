@@ -1,0 +1,27 @@
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/img_1.jpg);
+  background-size: cover;
+  height:600px;
+}
+.hero *{
+  margin:15px 0;
+  color:antiquewhite
+}
+.hero h1{
+  font-size: 40px;
+}
+.hero p{
+  font-size:20px;
+}
+.hero ul{
+  display: flex;
+  list-style: none;
+}
+.hero ul li{
+  font-size: 50px;
+  margin:0 20px;
+}

@@ -1,0 +1,43 @@
+/* ajeitar as cor */
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+  height: 60px;
+  background-color: #A50c0c;
+}
+.header img{
+  height: 50px;
+}
+.header ul{
+  display:flex;
+  align-items: center;
+  list-style: none;
+}
+.header ul li{
+  margin:0 10px;
+}
+
+.header ul li a{
+  color:#cccccc;
+}
+.header ul li input{
+  height: 30px;
+  border-radius:3px;
+  border:none;
+  background: #cccccc;
+  padding-left:15px;
+}
+.header ul li button{
+  height:30px;
+  border-radius:3px;
+  border:none;
+  background:black;
+  padding:0 15px;
+  color:#a50c0c;
+}
+.header ul li input::placeholder{
+  color:#a50c0c;
+  align-content: center;
+}
