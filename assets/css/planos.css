@@ -1,0 +1,54 @@
+    
+.planos{
+    background-color: rgb(44, 32, 32);
+    padding: 20px;
+    color: #fff;
+}
+.planos__titulo{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.secao-planos{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.plano{
+    padding: 10px;
+    width: 33.3333%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.plano__titulo{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.plano__preco{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.plano__texto{
+    font-size: .8rem;
+}
+.plano__botao{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    max-width: 70%;
+}
+.plano:hover .plano__titulo{
+    color: rgb(99, 63, 9);
+    transition: .6s;
+}
+.plano:hover .plano__botao{
+    background-color: rgb(99, 63, 9);
+    transition: .6s;
+}
