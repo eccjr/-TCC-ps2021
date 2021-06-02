@@ -15,7 +15,7 @@
   align-items: center;
   list-style: none;
 }
-.header ul li{
+.header ul li,form *{
   margin:0 10px;
 }
 
