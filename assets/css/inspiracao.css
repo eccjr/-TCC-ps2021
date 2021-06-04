@@ -13,6 +13,7 @@
 .inspiracao .inspiracao__content{
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
   margin-bottom:45px;
 }
 .inspiracao .imagem{
@@ -21,7 +22,7 @@
   width: 50%;
 }
 .inspiracao p{
-  width: 40%;
+  width: 54%;
   font-family: 'Spartan', sans-serif;
 }
 .inspiracao .imagem img{
