@@ -1,28 +1,36 @@
-    
 .planos{
     background-color: rgb(44, 32, 32);
-    padding: 20px;
+    padding: 20px 10%;
     color: #fff;
 }
 .planos__titulo{
     text-align: center;
-    padding: 20px;
+    padding:20px 0;
     text-transform: uppercase;
     font-size: 2.5rem;
 }
 .secao-planos{
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: space-between;
 }
 .plano{
-    padding: 10px;
+    /* padding: 10px; */
     width: 33.3333%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.plano:nth-child(2){
+  border-left: solid #392a2a 1px;
+  border-right: solid #392a2a 1px;
+}
+.plano:first-child{
+  border-left: solid #392a2a 1px;
+}
+.plano:last-child{
+  border-right: solid #392a2a 1px;
 }
 .plano__titulo{
     font-size: 1.4rem;
@@ -35,6 +43,8 @@
 }
 .plano__texto{
     font-size: .8rem;
+    font-family: 'Spartan', sans-serif;
+    padding:0 5px;
 }
 .plano__botao{
     padding: 10px;
