@@ -1,0 +1,79 @@
+.reviews{
+    align-items: center;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.comentarios__titulo{
+    color: #16ACCD;
+    font-size: 1.5rem;
+    margin: 40px auto 60px auto;
+    text-align: center;
+}
+.comentarios__cards{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+.comentarios__card{
+    background-color:#f7f0f5;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 3px solid #16ACCD;
+}
+.comentarios__nome{
+    color: #16ACCD;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.comentario{
+    line-height: 1.2;
+    text-align: justify;
+}
+.foto-comentario{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #16ACCD;
+    border-radius: 100%;
+    display: block;
+    height: 90px;
+    margin: auto;
+    transform: translateY(-60%);
+    width: 90px;
+}
+.comentarios__foto--1{
+    background-image: url("https://unavatar.now.sh/github/thalescr");
+}
+.comentarios__foto--2{
+    background-image: url("https://unavatar.now.sh/github/jardelbrando");
+}
+.comentarios__foto--3{
+    background-image: url("https://unavatar.now.sh/github/Lunatc");
+}
+.quotes{
+    font-size: 20px;
+    display: inline;
+    color: #16ACCD;
+}
+@media screen and (min-width:905px){
+
+    .reviews{
+        justify-content: center;
+    }
+    .comentarios__cards{
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+    .comentarios__card{
+        width: 28%;
+        margin-bottom: 50px;
+    }
+}

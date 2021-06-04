@@ -45,10 +45,10 @@
     max-width: 70%;
 }
 .plano:hover .plano__titulo{
-    color: rgb(99, 63, 9);
+    color: #16ACCD;
     transition: .6s;
 }
 .plano:hover .plano__botao{
-    background-color: rgb(99, 63, 9);
+    background-color: #16ACCD;
     transition: .6s;
 }
