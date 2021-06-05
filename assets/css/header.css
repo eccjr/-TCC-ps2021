@@ -24,20 +24,47 @@
 }
 .header ul li input{
   height: 30px;
+  width: 80%;
   border-radius:3px;
   border:none;
   background: #cccccc;
-  padding-left:15px;
 }
 .header ul li button{
   height:30px;
+  width: 40%;
+  margin-right: 0;
   border-radius:3px;
   border:none;
   background:black;
-  padding:0 15px;
   color:#a50c0c;
+}
+.header form{
+  display: flex;
+  width: 100%;
+}
+.header .li__form{
+  width: 100%;
 }
 .header ul li input::placeholder{
   color:#a50c0c;
   align-content: center;
+}
+@media screen and (max-width:620px){
+  .header{
+    padding:0 5px;
+  }
+  .header a{
+    font-size: 15px;
+  }
+  .header ul li,form *{
+    margin:0 5px;
+  }
+  .header img{
+    height: 40px;
+  }
+}
+@media screen and (max-width:490px){
+  .header a{
+    font-size: 13px;
+  }
 }

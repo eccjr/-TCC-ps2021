@@ -62,3 +62,8 @@
     background-color: #16ACCD;
     transition: .6s;
 }
+@media screen and (max-width:740px){
+  .planos{
+      padding: 20px 3.5%;
+  }
+}

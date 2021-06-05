@@ -36,3 +36,29 @@
 .botao:hover{
   box-shadow: 4px 4px 4px rgba(0,0,0,.5);
 }
+@media screen and (max-width:740px){
+  .informations1{
+    flex-direction: column;
+    padding:10px 0;
+  }
+  .informations1 .buttons{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .informations1 .botao:first-child,.botao:nth-child(4){
+    margin-left: 0;
+  }
+  .informations1 p{
+    width: 93%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width:480px){
+  .informations1 i{
+    font-size: 35px;
+  }
+  .informations1 a{
+    font-size: 18px;
+  }
+}
