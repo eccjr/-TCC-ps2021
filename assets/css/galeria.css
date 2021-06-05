@@ -34,3 +34,8 @@
   width: 48.61%;
   object-fit: cover;
 }
+@media screen and (max-width:740px){
+  .galeria{
+    padding:20px 3.5%;
+  }
+}
