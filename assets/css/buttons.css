@@ -32,7 +32,6 @@
   font-family: 'Spartan', sans-serif;
   width: 40%;
   color:antiquewhite;
-  text-align: justify;
 }
 .botao:hover{
   box-shadow: 4px 4px 4px rgba(0,0,0,.5);
@@ -52,6 +51,7 @@
   }
   .informations1 p{
     width: 93%;
+    text-align: justify;
   }
 }
 @media screen and (max-width:480px){
