@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: space-between;
   padding:0 20px;
-  height: 60px;
+  height: 45px;
   background-color: #A50c0c;
 }
 .header img{
-  height: 50px;
+  height: 40px;
 }
 .header ul{
   display:flex;
@@ -20,23 +20,23 @@
 }
 
 .header ul li a{
-  color:#cccccc;
+  color:#ffffff;
 }
 .header ul li input{
   height: 30px;
   width: 80%;
   border-radius:3px;
   border:none;
-  background: #cccccc;
+  background: #ffffff;
 }
 .header ul li button{
   height:30px;
   width: 40%;
   margin-right: 0;
   border-radius:3px;
-  border:none;
-  background:black;
-  color:#a50c0c;
+  border:1px solid #7e0005;
+  background:#b81111;
+  color:#ffffff;
 }
 .header form{
   display: flex;

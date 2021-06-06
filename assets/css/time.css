@@ -1,13 +1,15 @@
 .secao-team{
     padding: 20px 10% 30px 10%;
     text-align: center;
-    background-color: #A50C0C;
+    background-color: #cccccc;
 }
 .team__titulo{
     font-size: 1.5rem;
+    color:#16ACCD;
 }
 .team__descricao{
     margin-bottom: 20px;
+    color:#16ACCD;
 }
 .time{
     display: flex;
