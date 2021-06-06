@@ -1,0 +1,87 @@
+.secao-team{
+    padding: 20px 10% 30px 10%;
+    text-align: center;
+    background-color: #A50C0C;
+}
+.team__titulo{
+    font-size: 1.5rem;
+}
+.team__descricao{
+    margin-bottom: 20px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.time__card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 20%;
+    background-color: #fff;
+}
+.time__card__img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    display: block;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.time__card__img--1{
+    background-image: url("https://unavatar.now.sh/github/deigo-lps");
+}
+.time__card__img--2{
+    background-image: url("https://unavatar.now.sh/github/alexRicc2");
+}
+.time__card__img--3{
+    background-image: url("https://unavatar.now.sh/github/gustavoguanabara");
+}
+.time__card__img--4{
+    background-image: url("https://unavatar.now.sh/github/gustavoguanabara");
+}
+.time__card__texto{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px; 
+    flex-grow: 1;  
+}
+.contata{
+    background-color: #16ACCD;
+    border-radius: 0 0 10px 10px;
+    padding: 8px;
+}
+.contata:hover{
+    background-color: teal;
+    transition: .3s;
+}
+.contata:hover a{
+    color: white;
+}
+
+
+@media screen and (max-width:840px) {
+    
+    .secao-team{
+        padding: 20px 3.5%;
+    }
+    .time{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .time__card{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .time__card{
+        width: 70%
+    }
+}

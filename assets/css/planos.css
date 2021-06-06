@@ -66,4 +66,25 @@
   .planos{
       padding: 20px 3.5%;
   }
+  .secao-planos{
+      flex-direction: column;
+      align-items: center;
+  }
+  .plano{
+      width: 80%;
+      border-bottom: 1px solid #392a2a;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+  }
+  .plano:nth-child(2){
+    border-left: none;
+    border-right: none;
+  }
+  .plano:first-child{
+    border-left: none;
+  }
+  .plano:last-child{
+    border-right: none;
+    border-bottom: none;
+  }
 }
