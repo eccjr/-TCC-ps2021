@@ -21,9 +21,10 @@
     padding: 20px;
     border: 3px solid #16ACCD;
     font-family: 'Spartan', sans-serif;
-    width: 28%;
+    width: 25%;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
 }
 .comentarios__nome{
     color: #16ACCD;
@@ -58,12 +59,7 @@
 }
 
 
-@media screen and (max-width:1090px){
-  .comentarios__card{
-      width:25%;
-      font-size:12px;
-  }
-}
+
 @media screen and (max-width:740px){
   
   .comentarios__cards{
