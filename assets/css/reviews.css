@@ -1,10 +1,6 @@
 .reviews{
-    align-items: center;
     background-color: #ccc;
-    display: flex;
-    flex-direction: column;
     padding:20px 10% 40px 10%;
-    justify-content: center;
 }
 .comentarios__titulo{
     color: #16ACCD;
@@ -14,11 +10,10 @@
 }
 .comentarios__cards{
     display: flex;
-    flex-direction: row;
     height: auto;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
+    
 }
 .comentarios__card{
     background-color:#f7f0f5;
@@ -27,6 +22,8 @@
     border: 3px solid #16ACCD;
     font-family: 'Spartan', sans-serif;
     width: 28%;
+    display: flex;
+    flex-direction: column;
 }
 .comentarios__nome{
     color: #16ACCD;
@@ -35,9 +32,8 @@
     text-align: center;
 }
 .comentario{
-    display: inline-block;
-    height: 150px;
     font-family: 'Spartan', sans-serif;
+    flex-grow: 1;
 }
 .foto-comentario{
     background-size: cover;
@@ -60,34 +56,26 @@
 .comentarios__foto--3{
     background-image: url("https://unavatar.now.sh/github/Lunatc");
 }
-.quotes{
-    font-size: 20px;
-    /* display: inline; */
-    color: #16ACCD;
-}
-@media screen and (max-width:1202px){
-  .comentarios__card{
-      font-size: 15px;
-  }
-}
+
+
 @media screen and (max-width:1090px){
   .comentarios__card{
       width:25%;
       font-size:12px;
   }
 }
-@media screen and (max-width:750px){
-  .reviews{
-    padding:20px 7.5% 40px 7.5%;
-  }
+@media screen and (max-width:740px){
+  
   .comentarios__cards{
     flex-direction: column;
+    align-items: center;
   }
   .comentarios__card{
-      width:100%;
+      width:70%;
       font-size:20px;
       margin-bottom: 40px;
   }
+
 }
 @media screen and (max-width:470px){
   .comentarios__card{

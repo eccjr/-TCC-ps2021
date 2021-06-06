@@ -26,3 +26,27 @@
     width: 150px;
     
 }
+
+@media screen and (max-width: 740px){
+    .clientes{
+        padding: 20px 3.5%;
+    }
+    .clientes__logos__img{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .clientes__logos__img{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .clientes__logos__img{
+        width: 80px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .clientes__logos__img{
+        width: 60px;
+    }
+}
