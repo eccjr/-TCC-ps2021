@@ -1,5 +1,6 @@
 .planos{
-    background-color: rgb(44, 32, 32);
+    background-color: #333333;
+    /* background-color: rgb(44, 32, 32); */
     padding: 20px 10%;
     color: #fff;
 }
@@ -8,6 +9,7 @@
     padding:20px 0;
     text-transform: uppercase;
     font-size: 2.5rem;
+    color:#a50c0c;
 }
 .secao-planos{
     display: flex;
@@ -22,15 +24,16 @@
     align-items: center;
     justify-content: space-around;
 }
+/* #392a2a */
 .plano:nth-child(2){
-  border-left: solid #392a2a 1px;
-  border-right: solid #392a2a 1px;
+  border-left: solid #4e4e4e 1px;
+  border-right: solid #4e4e4e 1px;
 }
 .plano:first-child{
-  border-left: solid #392a2a 1px;
+  border-left: solid #4e4e4e 1px;
 }
 .plano:last-child{
-  border-right: solid #392a2a 1px;
+  border-right: solid #4e4e4e 1px;
 }
 .plano__titulo{
     font-size: 1.4rem;
@@ -72,7 +75,7 @@
   }
   .plano{
       width: 80%;
-      border-bottom: 1px solid #392a2a;
+      border-bottom: 1px solid #4e4e4e;
       margin-bottom: 10px;
       padding-bottom: 5px;
   }
