@@ -1,11 +1,11 @@
 .reviews{
     background-color: #333333;
-    padding:20px 10% 40px 10%;
+    padding:30px 10% 50px 10%;
 }
 .comentarios__titulo{
     color: #16ACCD;
     font-size: 1.5rem;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
     text-align: center;
 }
 .comentarios__cards{

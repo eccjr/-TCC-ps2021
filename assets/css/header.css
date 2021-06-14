@@ -3,9 +3,9 @@
   display:flex;
   align-items: center;
   justify-content: space-between;
-  padding:0 20px;
+  padding:5px 20px;
   height: 45px;
-  background-color: #A50c0c;
+  background-color: #bb0e0e;
 }
 .header img{
   height: 40px;
@@ -34,8 +34,8 @@
   width: 40%;
   margin-right: 0;
   border-radius:3px;
-  border:1px solid #7e0005;
-  background:#b81111;
+  border:1px solid #a70006;
+  background:#d11313;
   color:#ffffff;
 }
 .header form{

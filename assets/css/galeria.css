@@ -1,7 +1,7 @@
 .galeria{
   display: flex;
   flex-direction: column;
-  padding:40px 10%;
+  padding:60px 10%;
   /* padding:20px 0 40px 0; */
   background-color: #333333;
   justify-content: center;
@@ -38,6 +38,6 @@
 }
 @media screen and (max-width:740px){
   .galeria{
-    padding:20px 3.5%;
+    padding:30px 3.5%;
   }
 }
